@@ -16,25 +16,12 @@ body{
 p{
     color: rgba(12,24,36,255);
     font-family: "ff mark";
-}
-.titulo{
-    font-size: 70px;
-    font-family: "valorant font";
-    padding: 10px;
-    text-align: center;
-    margin-top: 300px;
-    margin-bottom: 0px;
-    background-color: rgba(255,81,82,1);
-    width: 400px;
     position: relative;
-    top: -900px;
-    left: 1070px;
-    border-radius: 8px;
+    top: -1000px;
 }
-.texto{
-    font-size: 20px;
-    text-align: center;
-    background-color: rgba(255,81,82,0.9);
-    width: 170px;
-    border-radius: 5px;
+.fondo{
+    width: 1350px;
+    height: 1000px;
+    position: relative;
+    left: 220px;
 }
