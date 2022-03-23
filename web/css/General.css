@@ -7,21 +7,19 @@
     src: url('/web/font/fontFont_FF.Mark.Pro.otf');
 }
 body{
-    background-color: white;
+    background-color: black;
     background-image: url(/web/img/ValoFondo.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    overflow-y: hidden;
+    background-size: cover;
 }
 p{
     color: rgba(12,24,36,255);
     font-family: "ff mark";
-    position: relative;
-    top: -1000px;
 }
-.fondo{
-    width: 1350px;
-    height: 1000px;
-    position: relative;
-    left: 220px;
+.p-inicio{
+    size: 80%;
+    position: fixed;
+    bottom: 0;
+    left: 1;
+    right: 0;
 }
