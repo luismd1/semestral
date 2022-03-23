@@ -10,7 +10,7 @@ body{
     background-color: black;
     background-image: url(/web/img/ValoFondo.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     overflow-y: hidden;
 }
 p{
