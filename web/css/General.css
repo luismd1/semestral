@@ -13,7 +13,6 @@ body{
     background-size: cover;
 }
 p{
-    color: rgba(12,24,36,255);
     font-family: "ff mark";
 }
 .p-inicio{
@@ -27,5 +26,11 @@ p{
     font-family: "valorant font";
 }
 a{
+    font-family: "ff mark";
+}
+h5{
+    font-family: "ff mark";
+}
+h3{
     font-family: "ff mark";
 }
