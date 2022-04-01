@@ -6,23 +6,25 @@
     font-family: 'ff mark';
     src: url('/web/font/fontFont_FF.Mark.Pro.otf');
 }
-body{
-    background-color: black;
-    background-image: url(/web/img/ValoFondo.jpg);
+body, html {
+    height: 100%;
+}
+  
+.bg{
+    /* The image used */
+    background-image: url("/web/img/FondoChambel.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center start;
     background-attachment: fixed;
 }
 p{
     font-family: "ff mark";
-}
-.p-inicio{
-    size: 80%;
-    position: fixed;
-    bottom: 0;
-    left: 1;
-    right: 0;
 }
 #titulo{
     font-family: "valorant font";
@@ -42,3 +44,14 @@ label{
 button{
     font-family: "ff mark";
 };
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+iframe{
+    border-radius: 5px;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+}
