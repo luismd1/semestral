@@ -11,6 +11,8 @@ body{
     background-image: url(/web/img/ValoFondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center start;
+    background-attachment: fixed;
 }
 p{
     font-family: "ff mark";
