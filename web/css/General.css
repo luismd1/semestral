@@ -23,6 +23,19 @@ body, html {
     background-size: cover;
     background-attachment: fixed;
 }
+.bg2{
+    /* The image used */
+    background-image: url("/web/img/ValoFondo.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: start center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 p{
     font-family: "ff mark";
 }
