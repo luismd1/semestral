@@ -45,7 +45,7 @@ p{
 }
 
 .card {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0px auto 0;
     background-color: #404040;
     box-shadow: 0 10px 90px #ff0000a7;
@@ -140,7 +140,7 @@ p{
     background-color: rgba(235, 74, 69, 0.668);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    padding: 20px 0 20px 0;
+    padding: 50px 0 50px 0;
 }
 
 .card .card-footer .count {
