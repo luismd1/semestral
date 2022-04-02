@@ -49,6 +49,38 @@ body, html {
     background-size: cover;
     background-attachment: fixed;
 }
+.bg4{
+    /* The image used */
+    background-image: url("/web/img/fondosinnada2.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card1 {
+    
+    
+    
+    background-color: dark;
+;
+    text-align: start;
+    font-size: 10px;
+    border-color: danger;
+;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.3s;
+}
 p{
     font-family: "ff mark";
 }
