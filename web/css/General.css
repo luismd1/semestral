@@ -125,3 +125,14 @@ iframe{
     max-width: 100%;
     height: auto;
 }
+#dropdown-menu-avatar{
+    width: 400px;
+}
+.dropdown-menu.mapa{
+    width: 400px;
+    height: auto;
+}
+#mapa-bg{
+    background-size: cover;
+    background-position: center center;
+}
