@@ -132,7 +132,38 @@ iframe{
     width: 400px;
     height: auto;
 }
-#mapa-bg{
+.ascent{
+    background-image: url(/web/img/Mapas/ascent.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.bind{
+    background-image: url(/web/img/Mapas/bind.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.breeze{
+    background-image: url(/web/img/Mapas/breeze.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.haven{
+    background-image: url(/web/img/Mapas/haven.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.icebox{
+    background-image: url(/web/img/Mapas/icebox.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.split{
+    background-image: url(/web/img/Mapas/split.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.fracture{
+    background-image: url(/web/img/Mapas/fracture.jpeg);
     background-size: cover;
     background-position: center center;
 }
