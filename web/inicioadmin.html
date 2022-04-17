@@ -181,14 +181,24 @@
                 <div class="card border-danger bg-dark text-white">
                   <div class="card-header haven"> <img src="img/Avatar/killjoy.png" alt="avatar" class="avatar">
                     <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                <!--    
-                    <div class="modal" id="1000">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content bg-dark">
-                                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis facere mollitia unde. Sapiente dicta tenetur voluptatem, molestiae asperiores sequi, at a adipisci saepe odit nihil dolor, quam accusantium est?</h1>
-                            </div>
+                    
+                    <!-- MODAL ELIMINAR LINE UPP-->
+                    <div class="modal " id="Modal1000" tabindex="-1">
+                      <div class="modal-dialog">
+                        <div class="modal-content bg-dark">
+                          <div class="modal-header bg-danger">
+                            <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                          </div>
+                          <div class="modal-body">
+                            <p>Este Line up se eliminará permanentemente.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-danger">Si, eliminar</button>
+                          </div>
                         </div>
-                    </div>-->
+                      </div>
+                    </div>
                 </div>
 
                     <iframe height="230" src="https://www.youtube.com/embed/d9xGs0jOz1w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -196,6 +206,7 @@
                       <h5 class="card-title">Nano para verdes de C</h5>
                       <p class="card-text">Nanoenjambre lanzado desde Lobby de Larga para limpiar tras las cajas Verdes de la derecha y frenar el apoyo de garaje</p>
                       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Modal1">Ver descripcion</button>
+                      <button type="button" class="btn btn-danger  bi bi-pencil-fill "  data-bs-toggle="modal" data-bs-target="#Modal301">Editar Line up</button>               
                       <!-- MODAL / VER DESCRIPCION-->
                       <div class="modal" id="Modal1">
                         <div class="modal-dialog modal-xl">
@@ -270,11 +281,73 @@
                       </div>
                       <!--ACA VA EL MODAL DEL MAPA-->
                     </div>
+
+
+
+                    
+                      <!--MODAL / EDITAR DESCRIPCION-->
+                    <div class="modal" id="Modal301">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content bg-dark">
+                    
+                          <!-- CABEZA DEL MODAL -->
+                          <div class="modal-header bg-danger">
+                            <div class="col-sm-3">
+                              <h3> Editar Line up</h3>
+                            </div>
+                          </div>
+                        
+                          <!-- CUERPO DEL MODAL -->
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-sm-12">
+                                
+                                <form class="form-floating">
+                                  <p class="card-text fs-3">Título:</p>
+                                  <input type="text " class="form-control p-1" id="floatingInputValue"  value="Nano para verdes de C">
+                                  <label class="text-dark" for="floatingInputValue">Ingrese aquí el título:</label>
+
+ 
+                                </form>
+                                <div class="form-floating mb-3">
+                                  <p class="card-text fs-3">Explicación:</p>
+                                  <input type="text" class="form-control p-1" id="floatingInputValue"  value="Nanoenjambre lanzado desde Lobby de Larga para limpiar tras las cajas Verdes de la derecha y frenar el apoyo de garaje">
+                                  <label class ="text-dark "for="floatingInputValue">Ingrese aquí la explicación:</label>
+                                </div>
+                              </div> 
+                            </div>                                            
+                          <!-- PIE DE MODAL -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                          </div>
+                      </div>
+                      </div>
                 </div>
+            </div>
             </div>
             <div class="col-sm-4">
                 <div class="card border-danger bg-dark text-white">
-                  <div class="card-header haven"><img src="img/Avatar/killjoy.png" alt="avatar" class="avatar"></div>
+                  <div class="card-header haven"><img src="img/Avatar/killjoy.png" alt="avatar" class="avatar">
+                    <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                    <!-- MODAL ELIMINAR LINE UPP-->
+                    <div class="modal " id="Modal1000" tabindex="-1">
+                      <div class="modal-dialog">
+                        <div class="modal-content bg-dark">
+                          <div class="modal-header bg-danger">
+                            <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                          </div>
+                          <div class="modal-body">
+                            <p>Este Line up se eliminará permanentemente.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-danger">Si, eliminar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                     <iframe height="230" src="https://www.youtube.com/embed/o4_A2GrGFpg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
                     <div class="card-body">
                       <h5 class="card-title">Nano para corta</h5>
@@ -357,7 +430,26 @@
             </div>
             <div class="col-sm-4">
                 <div class="card border-danger bg-dark text-white">
-                  <div class="card-header icebox"><img src="img/Avatar/yoru.png" alt="avatar" class="avatar"></div>
+                  <div class="card-header icebox"><img src="img/Avatar/yoru.png" alt="avatar" class="avatar">
+                    <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                    <!-- MODAL ELIMINAR LINE UPP-->
+                    <div class="modal " id="Modal1000" tabindex="-1">
+                      <div class="modal-dialog">
+                        <div class="modal-content bg-dark">
+                          <div class="modal-header bg-danger">
+                            <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                          </div>
+                          <div class="modal-body">
+                            <p>Este Line up se eliminará permanentemente.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-danger">Si, eliminar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                     <iframe height="230" src="https://www.youtube.com/embed/qsqkoKRV7-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div class="card-body">
                       <h5 class="card-title">TP plataforma - spawn</h5>
@@ -443,7 +535,26 @@
         <div class="row" style="margin-top: 10px;">
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
-              <div class="card-header bind"><img src="img/Avatar/sova.png" alt="avatar" class="avatar"></div>
+              <div class="card-header bind"><img src="img/Avatar/sova.png" alt="avatar" class="avatar">
+                <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                <!-- MODAL ELIMINAR LINE UPP-->
+                <div class="modal " id="Modal1000" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-danger">
+                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>Este Line up se eliminará permanentemente.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Si, eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <iframe height="230" src="https://www.youtube.com/embed/1R_BO_0TBno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">Recon fuente->backsite B</h5>
@@ -526,7 +637,26 @@
           </div>
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
-              <div class="card-header haven"><img src="img/Avatar/sova.png" alt="avatar" class="avatar"></div>
+              <div class="card-header haven"><img src="img/Avatar/sova.png" alt="avatar" class="avatar">
+                <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                <!-- MODAL ELIMINAR LINE UPP-->
+                <div class="modal " id="Modal1000" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-danger">
+                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>Este Line up se eliminará permanentemente.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Si, eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <iframe height="230" src="https://www.youtube.com/embed/KyVshsbUfHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">Shock Darts Anti-Bloqueo</h5>
@@ -609,7 +739,26 @@
           </div>
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
-              <div class="card-header haven"><img src="img/Avatar/kayo.png" alt="avatar" class="avatar"></div>
+              <div class="card-header haven"><img src="img/Avatar/kayo.png" alt="avatar" class="avatar">
+                <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                <!-- MODAL ELIMINAR LINE UPP-->
+                <div class="modal " id="Modal1000" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-danger">
+                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>Este Line up se eliminará permanentemente.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Si, eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <iframe height="230" src="https://www.youtube.com/embed/tutz38MLLuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">Molly A-Link -> Grafiti</h5>
@@ -695,7 +844,26 @@
         <div class="row" style="margin-top: 10px;">
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
-              <div class="card-header fracture"><img src="img/Avatar/viper.png" alt="avatar" class="avatar"></div>
+              <div class="card-header fracture"><img src="img/Avatar/viper.png" alt="avatar" class="avatar">
+                <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                <!-- MODAL ELIMINAR LINE UPP-->
+                <div class="modal " id="Modal1000" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-danger">
+                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>Este Line up se eliminará permanentemente.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Si, eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <iframe height="230" src="https://www.youtube.com/embed/IxpG1cS1suI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">One-way para post plant</h5>
@@ -778,7 +946,26 @@
           </div>
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
-              <div class="card-header fracture"><img src="img/Avatar/viper.png" alt="avatar" class="avatar"></div>
+              <div class="card-header fracture"><img src="img/Avatar/viper.png" alt="avatar" class="avatar">
+                <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                <!-- MODAL ELIMINAR LINE UPP-->
+                <div class="modal " id="Modal1000" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-danger">
+                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>Este Line up se eliminará permanentemente.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Si, eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <iframe height="230" src="https://www.youtube.com/embed/dxWxSH04ihY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">One-Way A-Main</h5>
@@ -861,7 +1048,26 @@
           </div>
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
-              <div class="card-header haven"><img src="img/Avatar/cypher.png" alt="avatar" class="avatar"></div>
+              <div class="card-header haven"><img src="img/Avatar/cypher.png" alt="avatar" class="avatar">
+                <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                <!-- MODAL ELIMINAR LINE UPP-->
+                <div class="modal " id="Modal1000" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-danger">
+                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>Este Line up se eliminará permanentemente.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Si, eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <iframe height="230" src="https://www.youtube.com/embed/FWnZwZcLFEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">Camara sobre ventana</h5>
@@ -947,7 +1153,26 @@
         <div class="row" style="margin-top: 10px;">
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
-              <div class="card-header ascent"><img src="img/Avatar/kayo.png" alt="avatar" class="avatar"></div>
+              <div class="card-header ascent"><img src="img/Avatar/kayo.png" alt="avatar" class="avatar">
+                <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                <!-- MODAL ELIMINAR LINE UPP-->
+                <div class="modal " id="Modal1000" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-danger">
+                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>Este Line up se eliminará permanentemente.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Si, eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <iframe height="230" src="https://www.youtube.com/embed/cMflTNikdlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">Cuchillo Top-mid --> Mercado</h5>
@@ -1030,7 +1255,26 @@
           </div>
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
-              <div class="card-header split"><img src="img/Avatar/raze.png" alt="avatar" class="avatar"></div>
+              <div class="card-header split"><img src="img/Avatar/raze.png" alt="avatar" class="avatar">
+                <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                <!-- MODAL ELIMINAR LINE UPP-->
+                <div class="modal " id="Modal1000" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-danger">
+                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>Este Line up se eliminará permanentemente.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Si, eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <iframe height="230" src="https://www.youtube.com/embed/hIoStJKsBh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">Limpiar CT granada</h5>
@@ -1113,7 +1357,26 @@
           </div>
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
-              <div class="card-header fracture"><img src="img/Avatar/yoru.png" alt="avatar" class="avatar"></div>
+              <div class="card-header fracture"><img src="img/Avatar/yoru.png" alt="avatar" class="avatar">
+                <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
+                <!-- MODAL ELIMINAR LINE UPP-->
+                <div class="modal " id="Modal1000" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header bg-danger">
+                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
+                      </div>
+                      <div class="modal-body">
+                        <p>Este Line up se eliminará permanentemente.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger">Si, eliminar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <iframe height="230" src="https://www.youtube.com/embed/OqqDvV71JLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">Flash A-Main</h5>
@@ -1219,6 +1482,6 @@
           <center><p class="text-muted">Agradecimientos a <a href="http://www.hitboxking.com" class="text-muted">HITBOXKING.com</a>, todos los derechos de los videos le pertecen a ese dominio.</p></center>            
       </div>
     </div>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">    
 </body>
 </html>
