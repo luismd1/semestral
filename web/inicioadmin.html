@@ -301,31 +301,32 @@
                           <div class="modal-body">
                             <div class="row">
                               <div class="col-sm-12">
-                                
-                                <form class="form-floating">
+                                <!--FORMULARIO -->
+                                <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
                                   <p class="card-text fs-3">Título:</p>
-                                  <input type="text " class="form-control p-1" id="floatingInputValue"  value="Nano para verdes de C">
-                                  <label class="text-dark" for="floatingInputValue">Ingrese aquí el título:</label>
-
- 
-                                </form>
-                                <div class="form-floating mb-3">
+                                  <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Nano para verdes de C">
+                                  <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
                                   <p class="card-text fs-3">Explicación:</p>
-                                  <input type="text" class="form-control p-1" id="floatingInputValue"  value="Nanoenjambre lanzado desde Lobby de Larga para limpiar tras las cajas Verdes de la derecha y frenar el apoyo de garaje">
-                                  <label class ="text-dark "for="floatingInputValue">Ingrese aquí la explicación:</label>
+                                  <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Nanoenjambre lanzado desde Lobby de Larga para limpiar tras las cajas Verdes de la derecha y frenar el apoyo de garaje">
+                                  <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>
+                                  <div class="col-6 margin-top:50px;">
+                                    <input class="bg-danger text-white " type="submit" value="Enviar">
+                                    <input class="bg-danger text-white" type="reset" value="Limpiar">
+                                  </div>
+                                </form>
                                 </div>
                               </div> 
                             </div>                                            
                           <!-- PIE DE MODAL -->
                           <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+
                           </div>
                           </div>
                       </div>
                       </div>
                 </div>
             </div>
-            </div>
+            
             <div class="col-sm-4">
                 <div class="card border-danger bg-dark text-white">
                   <div class="card-header haven"><img src="img/Avatar/killjoy.png" alt="avatar" class="avatar">
