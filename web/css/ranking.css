@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'valorant font';
+    src: url('/web/font/Valorant\ Font.ttf');
+}
+@font-face{
+    font-family: 'ff mark';
+    src: url('/web/font/fontFont_FF.Mark.Pro.otf');
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    background-image: url(/web/img/FondoChambel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
