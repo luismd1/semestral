@@ -15,48 +15,42 @@
     <div class="container bg-dark">
         <!--PRIMERA FILA Y MENU PRINCIPAL-->
         <div class="row">
-          <div class="col-sm-11">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
               <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="/web/inicio.html">
                   <img src="img/AppIcono.png" class="icono" alt="">
-                </a>
-                
-                <a class="navbar-brand" href="inicio.html" id="titulo">Line App</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              </a>
+              <a class="navbar-brand" href="inicio.html" id="titulo">Line App</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
-                    <li class="nav-item">
+                  <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
+                  </li>
+                  <li class="nav-item">
                       <a class="nav-link" href="ranking.html">Ranking</a>
-                    </li>
-                    <li class="nav-item">
+                  </li>
+                  <li class="nav-item">
                       <a class="nav-link" href="AcercaDe.html">Acerca de</a>
-                    </li>
+                  </li>
                   </ul>
-                </div>
               </div>
-            </nav>
-        </div>
-        
-        <div class="col-sm-1">
+              </div>
+              <div class="dropdown bg-dark float-end">
+                  <button class="btn btn-secondary dropdown-toggle bg-dark border border-danger" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="bi bi-person-circle"></i>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-dark" style="z-index: 9999;" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="/web/InicioSesion.html">Iniciar sesion</a>
+                  <a class="dropdown-item" href="/web/perfil.html">Perfil</a>
+                  <a class="dropdown-item" href="#">Configuración</a>
+                  <a class="dropdown-item" href="#">Salir</a>
+                  </div>
+              </div>
+          </nav>
           
-          <div class="dropdown bg-dark">
-            <button class="btn btn-secondary dropdown-toggle bg-dark border border-danger" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="bi bi-person-circle"></i>
-            </button>
-            <div class="dropdown-menu dropdown-menu-dark" style="z-index: 9999;" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="InicioSesion.html">Iniciar sesion</a>
-              <a class="dropdown-item" href="perfil.html">Perfil</a>
-              <a class="dropdown-item" href="#">Configuración</a>
-              <a class="dropdown-item" href="#">Salir</a>
-            </div>
-          </div>
-        </div>
         </div>
         <!--SEGUNDA FILA DE CONTENIDO-->
         <div class="row sticky-top">

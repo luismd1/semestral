@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/General.css">
@@ -13,31 +14,43 @@
 <body class="bg3">
     <div class="container bg-dark">
         <!--PRIMERA FILA DE CONTENIDO-->
-        <div class="row sticky-top">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="img/AppIcono.png" alt="" class="icono">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+              <a class="navbar-brand" href="/web/inicio.html">
+                  <img src="img/AppIcono.png" class="icono" alt="">
               </a>
               <a class="navbar-brand" href="inicio.html" id="titulo">Line App</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                  <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="inicio.html">Inicio</a>
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="ranking.html">Ranking</a>
+                      <a class="nav-link" href="ranking.html">Ranking</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="AcercaDe.html">Acerca de</a>
+                      <a class="nav-link" href="AcercaDe.html">Acerca de</a>
                   </li>
-                </ul>
+                  </ul>
               </div>
-            </div>
+              </div>
+              <div class="dropdown bg-dark float-end">
+                  <button class="btn btn-secondary dropdown-toggle bg-dark border border-danger" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="bi bi-person-circle"></i>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-dark" style="z-index: 9999;" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="/web/InicioSesion.html">Iniciar sesion</a>
+                  <a class="dropdown-item" href="/web/perfil.html">Perfil</a>
+                  <a class="dropdown-item" href="#">Configuración</a>
+                  <a class="dropdown-item" href="#">Salir</a>
+                  </div>
+              </div>
           </nav>
+          
         </div>
         <!--CARRUSEL-->
         <div class="row">
