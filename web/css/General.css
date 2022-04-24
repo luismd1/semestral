@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'valorant font';
-    src: url('/font/Valorant\ Font.ttf');
+    src: url('/web/font/ValorantFont.ttf');
 }
 @font-face{
     font-family: 'ff mark';
-    src: url('/font/fontFont_FF.Mark.Pro.otf');
+    src: url('/web/font/FontFont_FF.Mark.Pro.otf');
 }
 body, html {
     height: 100%;
@@ -12,7 +12,7 @@ body, html {
   
 .bg{
     /* The image used */
-    background-image: url("/img/FondoChambel.png");
+    background-image: url("/web/img/FondoChambel.png");
   
     /* Full height */
     height: 100%;
@@ -25,7 +25,7 @@ body, html {
 }
 .bg2{
     /* The image used */
-    background-image: url("/img/ValoFondo.jpg");
+    background-image: url("/web/img/ValoFondo.jpg");
   
     /* Full height */
     height: 100%;
@@ -38,7 +38,7 @@ body, html {
 }
 .bg3{
     /* The image used */
-    background-image: url("/img/fondosinnada.png");
+    background-image: url("/web//img/fondosinnada.png");
   
     /* Full height */
     height: 100%;
@@ -51,7 +51,7 @@ body, html {
 }
 .bg4{
     /* The image used */
-    background-image: url("/img/fondosinnada2.png");
+    background-image: url("/web/img/fondosinnada2.png");
   
     /* Full height */
     height: 100%;
