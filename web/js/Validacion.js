@@ -10,7 +10,7 @@ $(document).ready(function(){
         var usu = $("#reg-usu").val();
 
         if (usu.lenght<5 || usu.lenght>15){
-            $("#reg_usu").addClass("form-control is-valid");
+            $("#reg_usu").addClass("sis-valid");
         }
     });
     $("#reg_usu").blur(function(){
