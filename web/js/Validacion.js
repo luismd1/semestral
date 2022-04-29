@@ -8,12 +8,12 @@ $(document).ready(function(){
 
         let entrar = false;
         var usu = $("#reg-usu").val();
-
-        if (usu.lenght<5 || usu.lenght>15){
-            $("#reg_usu").addClass("sis-valid");
+        if (usu.lenght<15 && usu.lenght>5){
+            $("#reg-usu").addClass("is-valid");
+            
         }
     });
     $("#reg_usu").blur(function(){
         
     });
-})
+});
