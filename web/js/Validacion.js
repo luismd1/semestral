@@ -7,13 +7,31 @@ $(document).ready(function(){
         event.preventDefault();
 
         let entrar = false;
+        
+    });
+    $("#reg-usu").blur(function(){
         var usu = $("#reg-usu").val();
-        if (usu.lenght<15 && usu.lenght>5){
+        usu.toString();
+        if (usu.length<26 && usu.length>5){
             $("#reg-usu").addClass("is-valid");
             
         }
     });
-    $("#reg_usu").blur(function(){
-        
+    $("#reg_pass").blur(function(){
+        var pass = $("#reg-usu").val();
+        pass.toString();
+        let valido = false;
+        let valido2 = false;
+        if (pass.length<26 && pass.length>5){
+            valido = true;
+        }
+        if (primeraLetra(pass)){
+            valido2 = true;
+        }
+        //Otra validacion
     });
+    function primeraLetra(texto){
+        letra = texto.charAt(0);
+        return letra == letra.toUpperCase();
+    }
 });
