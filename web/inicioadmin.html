@@ -170,15 +170,8 @@
           </nav>
         </div>
         <!--PRIMERA FILA DE VIDEOS-->
-        <div class="row" style="margin-top: 10px;">
-            <div class="col-sm-4">
-                <div class="card border-danger bg-dark text-white">
-                  <div class="card-header haven"> <img src="img/Avatar/killjoy.png" alt="avatar" class="avatar">
-                    <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                    
-  <!--VIDEO 1-->
-                    <!-- MODAL ELIMINAR LINE UPP-->
-                    <div class="modal " id="Modal1000" tabindex="-1">
+  <!-- MODAL ELIMINAR LINE UPP-->
+  <div class="modal " id="Modal1000" tabindex="-1">
                       <div class="modal-dialog">
                         <div class="modal-content bg-dark">
                           <div class="modal-header bg-danger">
@@ -193,7 +186,16 @@
                           </div>
                         </div>
                       </div>
-                    </div>
+  </div>        
+  
+        <div class="row" style="margin-top: 10px;">
+          <!--VIDEO 1-->
+            <div class="col-sm-4">
+                <div class="card border-danger bg-dark text-white">
+                  <div class="card-header haven"> <img src="img/Avatar/killjoy.png" alt="avatar" class="avatar">
+                    <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>                    
+
+
                 </div>                  
                     <iframe height="230" src="https://www.youtube.com/embed/d9xGs0jOz1w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div class="card-body">
@@ -201,6 +203,9 @@
                       <p class="card-text">Nanoenjambre lanzado desde Lobby de Larga para limpiar tras las cajas Verdes de la derecha y frenar el apoyo de garaje</p>
                       <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Modal1">Ver descripcion</button>
                       <button type="button" class="btn btn-danger  bi bi-pencil-fill "  data-bs-toggle="modal" data-bs-target="#Modal301">Editar Line up</button>               
+
+                      </div>
+                      </div>
                       <!-- MODAL / VER DESCRIPCION-->
                       <div class="modal" id="Modal1">
                         <div class="modal-dialog modal-xl">
@@ -275,84 +280,15 @@
                       </div>
                       <!--ACA VA EL MODAL DEL MAPA-->
                     </div>               
-                      <!--MODAL / EDITAR DESCRIPCION-->
-                    <div class="modal" id="Modal301">
-                      <div class="modal-dialog modal-xl">
-                        <div class="modal-content bg-dark">
-                    
-                          <!-- CABEZA DEL MODAL -->
-                          <div class="modal-header bg-danger">
-                            <div class="col-sm-3">
-                              <h3> Editar Line up</h3>
-                            </div>
-                          </div>
-                        
-                          <!-- CUERPO DEL MODAL -->
-                          <div class="modal-body">
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <!--FORMULARIO -->
-                                <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-                                  <p class="card-text fs-3">Título:</p>
-                                  <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Nano para verdes de C">
-                                  <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-                                  <p class="card-text fs-3">Explicación:</p>
-                                  <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Nanoenjambre lanzado desde Lobby de Larga para limpiar tras las cajas Verdes de la derecha y frenar el apoyo de garaje">
-                                  <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-                                </div>
-                              </div> 
-                            </div> 
-                              <!-- PIE DE MODAL -->
-                            <div class="modal-footer">
-                              <div class="row">
-                                <div class="col-3">
-                                  <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-                                </div>
-                            </div>
-                              <div class="row">
 
-                                  <div class="col-sm-6">
-                                    <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">
-    
-                                  </div>
-                                  <div class="col-sm-6">
-                                   <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-                                  </div>
-
-                                </div>
-
-
-                            </form>
-                            </div>                                           
-                          </div>
-                            </div>                                           
-                          </div>
-                      </div>
-                      </div>
                
-                      
+  <!--VIDEO 2-->
             <div class="col-sm-4">
                 <div class="card border-danger bg-dark text-white">
                   <div class="card-header haven"><img src="img/Avatar/killjoy.png" alt="avatar" class="avatar">
                     <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-  <!--VIDEO 2-->
-                    <!-- MODAL ELIMINAR LINE UPP-->
-                    <div class="modal " id="Modal1000" tabindex="-1">
-                      <div class="modal-dialog">
-                        <div class="modal-content bg-dark">
-                          <div class="modal-header bg-danger">
-                            <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                          </div>
-                          <div class="modal-body">
-                            <p>Este Line up se eliminará permanentemente.</p>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-danger">Si, eliminar</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+
+
                   </div>
                     <iframe height="230" src="https://www.youtube.com/embed/o4_A2GrGFpg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
                     <div class="card-body">
@@ -436,73 +372,9 @@
                     </div>
                   </div>
             </div>
- <!--MODAL 2  / EDITAR DESCRIPCION-->
-  <div class="modal" id="Modal302">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content bg-dark">                                                          
-        <!-- CABEZA DEL MODAL -->
-        <div class="modal-header bg-danger">
-          <div class="col-sm-3">
-            <h3> Editar Line up</h3>
-          </div>
-        </div>
-                                                              
-        <!-- CUERPO DEL MODAL -->
-          <div class="modal-body">
-            <div class="row">
-                <div class="col-sm-12">
-                <!--FORMULARIO -->
-                <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-                <p class="card-text fs-3">Título:</p>
-                <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Nano para corta">
-                <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-                <p class="card-text fs-3">Explicación:</p>
-                <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Nanoenjambre desde Lobby de A para limpiar la parte de arriba de Corta">
-                <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-              </div>
-            </div> 
-          </div> 
-          <!-- PIE DE MODAL -->
-          <div class="modal-footer">
-            <div class="row">
-              <div class="col-3">
-                <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-              </div>
-            </div>
-            <div class="row">                          
-              <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-              </div>
-              <div class="col-sm-6">
-                  <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-              </div>                                      
-            </div>
-                                      
-                                      
-                  </form>
-         </div>                                           
-        </div>
-      </div>
-  </div>
+
 
 <!--VIDEO 3-->
-  <!-- MODAL ELIMINAR LINE UPP-->
-  <div class="modal " id="Modal1000" tabindex="-1">
-    <div class="modal-dialog">
-        <div class="modal-content bg-dark">
-            <div class="modal-header bg-danger">
-                <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-            </div>
-            <div class="modal-body">
-                <p>Este Line up se eliminará permanentemente.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-danger">Si, eliminar</button>
-            </div>
-          </div>
-        </div>
-   </div>
             <div class="col-sm-4">
                 <div class="card border-danger bg-dark text-white">
                   <div class="card-header icebox"><img src="img/Avatar/yoru.png" alt="avatar" class="avatar">
@@ -589,78 +461,15 @@
                     </div>
                   </div>
             </div>
- <!--MODAL 3  / EDITAR DESCRIPCION-->
- <div class="modal" id="Modal303">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">                                                          
-      <!-- CABEZA DEL MODAL -->
-      <div class="modal-header bg-danger">
-        <div class="col-sm-3">
-          <h3> Editar Line up</h3>
-        </div>
-      </div>
-                                                            
-      <!-- CUERPO DEL MODAL -->
-        <div class="modal-body">
-          <div class="row">
-              <div class="col-sm-12">
-              <!--FORMULARIO -->
-              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-              <p class="card-text fs-3">Título:</p>
-              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="TP plataforma - spawn">
-              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-              <p class="card-text fs-3">Explicación:</p>
-              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Infiltración lanzada al inicio de la ronda desde la Plataforma de Medio hasta el Spawn de los atacantes">
-              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-            </div>
-          </div> 
-        </div> 
-        <!-- PIE DE MODAL -->
-        <div class="modal-footer">
-          <div class="row">
-            <div class="col-3">
-              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-          <div class="row">                          
-            <div class="col-sm-6">
-              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-            </div>
-            <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-            </div>                                      
-          </div>
-                                    
-                                    
-                </form>
-       </div>                                           
-      </div>
-    </div>
-</div>
+
         <!--SEGUNDA FILA DE VIDEOS-->
         <div class="row" style="margin-top: 10px;">
+            <!--VIDEO 4-->
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
               <div class="card-header bind"><img src="img/Avatar/sova.png" alt="avatar" class="avatar">
                 <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-  <!--VIDEO 4-->                
-                <!-- MODAL ELIMINAR LINE UPP-->
-                <div class="modal " id="Modal1000" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content bg-dark">
-                      <div class="modal-header bg-danger">
-                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                      </div>
-                      <div class="modal-body">
-                        <p>Este Line up se eliminará permanentemente.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Si, eliminar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
               <iframe height="230" src="https://www.youtube.com/embed/1R_BO_0TBno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
@@ -743,76 +552,13 @@
               </div>
             </div>
           </div>
-           <!--MODAL 4  / EDITAR DESCRIPCION-->
-  <div class="modal" id="Modal304">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content bg-dark">                                                          
-        <!-- CABEZA DEL MODAL -->
-        <div class="modal-header bg-danger">
-          <div class="col-sm-3">
-            <h3> Editar Line up</h3>
-          </div>
-        </div>
-                                                              
-        <!-- CUERPO DEL MODAL -->
-          <div class="modal-body">
-            <div class="row">
-                <div class="col-sm-12">
-                <!--FORMULARIO -->
-                <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-                <p class="card-text fs-3">Título:</p>
-                <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Recon fuente->backsite B">
-                <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-                <p class="card-text fs-3">Explicación:</p>
-                <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Recon Arrow desde Fuente hasta Back Site de B">
-                <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-              </div>
-            </div> 
-          </div> 
-          <!-- PIE DE MODAL -->
-          <div class="modal-footer">
-            <div class="row">
-              <div class="col-3">
-                <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-              </div>
-            </div>
-            <div class="row">                          
-              <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-              </div>
-              <div class="col-sm-6">
-                  <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-              </div>                                      
-            </div>
-                                      
-                                      
-                  </form>
-         </div>                                           
-        </div>
-      </div>
-  </div>
+
 <!--VIDEO 5-->
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
               <div class="card-header haven"><img src="img/Avatar/sova.png" alt="avatar" class="avatar">
                 <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                <!-- MODAL ELIMINAR LINE UPP-->
-                <div class="modal " id="Modal1000" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content bg-dark">
-                      <div class="modal-header bg-danger">
-                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                      </div>
-                      <div class="modal-body">
-                        <p>Este Line up se eliminará permanentemente.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Si, eliminar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
               <iframe height="230" src="https://www.youtube.com/embed/KyVshsbUfHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
@@ -895,76 +641,13 @@
               </div>
             </div>
           </div>
- <!--MODAL 5  / EDITAR DESCRIPCION-->
- <div class="modal" id="Modal305">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">                                                          
-      <!-- CABEZA DEL MODAL -->
-      <div class="modal-header bg-danger">
-        <div class="col-sm-3">
-          <h3> Editar Line up</h3>
-        </div>
-      </div>
-                                                            
-      <!-- CUERPO DEL MODAL -->
-        <div class="modal-body">
-          <div class="row">
-              <div class="col-sm-12">
-              <!--FORMULARIO -->
-              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-              <p class="card-text fs-3">Título:</p>
-              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Shock Darts Anti-Bloqueo">
-              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-              <p class="card-text fs-3">Explicación:</p>
-              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Shock Darts lanzado dese Under Heaven para destruir el Bloqueo en A-Link">
-              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-            </div>
-          </div> 
-        </div> 
-        <!-- PIE DE MODAL -->
-        <div class="modal-footer">
-          <div class="row">
-            <div class="col-3">
-              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-          <div class="row">                          
-            <div class="col-sm-6">
-              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-            </div>
-            <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-            </div>                                      
-          </div>
-                                    
-                                    
-                </form>
-       </div>                                           
-      </div>
-    </div>
-</div>
+
 <!--VIDEO 6-->
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
               <div class="card-header haven"><img src="img/Avatar/kayo.png" alt="avatar" class="avatar">
                 <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                <!-- MODAL ELIMINAR LINE UPP-->
-                <div class="modal " id="Modal1000" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content bg-dark">
-                      <div class="modal-header bg-danger">
-                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                      </div>
-                      <div class="modal-body">
-                        <p>Este Line up se eliminará permanentemente.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Si, eliminar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
               <iframe height="230" src="https://www.youtube.com/embed/tutz38MLLuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
@@ -1047,54 +730,7 @@
               </div>
             </div>
           </div>
- <!--MODAL 6  / EDITAR DESCRIPCION-->
- <div class="modal" id="Modal306">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">                                                          
-      <!-- CABEZA DEL MODAL -->
-      <div class="modal-header bg-danger">
-        <div class="col-sm-3">
-          <h3> Editar Line up</h3>
-        </div>
-      </div>
-                                                            
-      <!-- CUERPO DEL MODAL -->
-        <div class="modal-body">
-          <div class="row">
-              <div class="col-sm-12">
-              <!--FORMULARIO -->
-              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-              <p class="card-text fs-3">Título:</p>
-              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Molly A-Link -> Grafiti">
-              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-              <p class="card-text fs-3">Explicación:</p>
-              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="FRAG/ment desde A-Link para limpiar Grafiti e iniciar el Retake">
-              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-            </div>
-          </div> 
-        </div> 
-        <!-- PIE DE MODAL -->
-        <div class="modal-footer">
-          <div class="row">
-            <div class="col-3">
-              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-          <div class="row">                          
-            <div class="col-sm-6">
-              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-            </div>
-            <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-            </div>                                      
-          </div>
-                                    
-                                    
-                </form>
-       </div>                                           
-      </div>
-    </div>
-</div>        
+       
         </div>
 </div>        
         <!--TERCERA FILA DE VIDEOS-->
@@ -1104,23 +740,7 @@
             <div class="card border-danger bg-dark text-white">
               <div class="card-header fracture"><img src="img/Avatar/viper.png" alt="avatar" class="avatar">
                 <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                <!-- MODAL ELIMINAR LINE UPP-->
-                <div class="modal " id="Modal1000" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content bg-dark">
-                      <div class="modal-header bg-danger">
-                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                      </div>
-                      <div class="modal-body">
-                        <p>Este Line up se eliminará permanentemente.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Si, eliminar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
               <iframe height="230" src="https://www.youtube.com/embed/IxpG1cS1suI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
@@ -1203,76 +823,13 @@
               </div>
             </div>
           </div>
- <!--MODAL 7  / EDITAR DESCRIPCION-->
- <div class="modal" id="Modal307">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">                                                          
-      <!-- CABEZA DEL MODAL -->
-      <div class="modal-header bg-danger">
-        <div class="col-sm-3">
-          <h3> Editar Line up</h3>
-        </div>
-      </div>
-                                                            
-      <!-- CUERPO DEL MODAL -->
-        <div class="modal-body">
-          <div class="row">
-              <div class="col-sm-12">
-              <!--FORMULARIO -->
-              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-              <p class="card-text fs-3">Título:</p>
-              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="One-way para post plant">
-              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-              <p class="card-text fs-3">Explicación:</p>
-              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Nube Venenosa One-Way en Site para defender el plante en la esquina de Under">
-              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-            </div>
-          </div> 
-        </div> 
-        <!-- PIE DE MODAL -->
-        <div class="modal-footer">
-          <div class="row">
-            <div class="col-3">
-              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-          <div class="row">                          
-            <div class="col-sm-6">
-              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-            </div>
-            <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-            </div>                                      
-          </div>
-                                    
-                                    
-                </form>
-       </div>                                           
-      </div>
-    </div>
-</div>
+
 <!--VIDEO 8-->
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
               <div class="card-header fracture"><img src="img/Avatar/viper.png" alt="avatar" class="avatar">
                 <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                <!-- MODAL ELIMINAR LINE UPP-->
-                <div class="modal " id="Modal1000" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content bg-dark">
-                      <div class="modal-header bg-danger">
-                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                      </div>
-                      <div class="modal-body">
-                        <p>Este Line up se eliminará permanentemente.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Si, eliminar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
               <iframe height="230" src="https://www.youtube.com/embed/dxWxSH04ihY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
@@ -1355,76 +912,12 @@
               </div>
             </div>
           </div>
- <!--MODAL 8  / EDITAR DESCRIPCION-->
- <div class="modal" id="Modal308">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">                                                          
-      <!-- CABEZA DEL MODAL -->
-      <div class="modal-header bg-danger">
-        <div class="col-sm-3">
-          <h3> Editar Line up</h3>
-        </div>
-      </div>
-                                                            
-      <!-- CUERPO DEL MODAL -->
-        <div class="modal-body">
-          <div class="row">
-              <div class="col-sm-12">
-              <!--FORMULARIO -->
-              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-              <p class="card-text fs-3">Título:</p>
-              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="One-Way A-Main">
-              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-              <p class="card-text fs-3">Explicación:</p>
-              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Nube Venenosa One-Way en A-Main para holdear desde Site">
-              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-            </div>
-          </div> 
-        </div> 
-        <!-- PIE DE MODAL -->
-        <div class="modal-footer">
-          <div class="row">
-            <div class="col-3">
-              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-          <div class="row">                          
-            <div class="col-sm-6">
-              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-            </div>
-            <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-            </div>                                      
-          </div>
-                                    
-                                    
-                </form>
-       </div>                                           
-      </div>
-    </div>
-</div>
+
 <!--VIDEO 9-->
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
               <div class="card-header haven"><img src="img/Avatar/cypher.png" alt="avatar" class="avatar">
                 <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                <!-- MODAL ELIMINAR LINE UPP-->
-                <div class="modal " id="Modal1000" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content bg-dark">
-                      <div class="modal-header bg-danger">
-                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                      </div>
-                      <div class="modal-body">
-                        <p>Este Line up se eliminará permanentemente.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Si, eliminar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <iframe height="230" src="https://www.youtube.com/embed/FWnZwZcLFEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
@@ -1508,54 +1001,7 @@
             </div>
           </div>
         </div>
- <!--MODAL 8  / EDITAR DESCRIPCION-->
- <div class="modal" id="Modal309">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">                                                          
-      <!-- CABEZA DEL MODAL -->
-      <div class="modal-header bg-danger">
-        <div class="col-sm-3">
-          <h3> Editar Line up</h3>
-        </div>
-      </div>
-                                                            
-      <!-- CUERPO DEL MODAL -->
-        <div class="modal-body">
-          <div class="row">
-              <div class="col-sm-12">
-              <!--FORMULARIO -->
-              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-              <p class="card-text fs-3">Título:</p>
-              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Camara sobre ventana">
-              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-              <p class="card-text fs-3">Explicación:</p>
-              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Cámara sobre Ventana para ver B-Site y Dobles Puertas. Puedes ver el lado izquierdo de B-Site y si pushean B o Dobles Puertas.">
-              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-            </div>
-          </div> 
-        </div> 
-        <!-- PIE DE MODAL -->
-        <div class="modal-footer">
-          <div class="row">
-            <div class="col-3">
-              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-          <div class="row">                          
-            <div class="col-sm-6">
-              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-            </div>
-            <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-            </div>                                      
-          </div>
-                                    
-                                    
-                </form>
-       </div>                                           
-      </div>
-    </div>
-</div>
+
         <!--CUARTA FILA DE VIDEOS-->
         <div class="row" style="margin-top: 10px;">
 <!--VIDEO 10-->
@@ -1563,23 +1009,6 @@
             <div class="card border-danger bg-dark text-white">
               <div class="card-header ascent"><img src="img/Avatar/kayo.png" alt="avatar" class="avatar">
                 <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                <!-- MODAL ELIMINAR LINE UPP-->
-                <div class="modal " id="Modal1000" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content bg-dark">
-                      <div class="modal-header bg-danger">
-                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                      </div>
-                      <div class="modal-body">
-                        <p>Este Line up se eliminará permanentemente.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Si, eliminar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <iframe height="230" src="https://www.youtube.com/embed/cMflTNikdlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
@@ -1662,76 +1091,13 @@
               </div>
             </div>
           </div>
- <!--MODAL 10  / EDITAR DESCRIPCION-->
- <div class="modal" id="Modal310">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">                                                          
-      <!-- CABEZA DEL MODAL -->
-      <div class="modal-header bg-danger">
-        <div class="col-sm-3">
-          <h3> Editar Line up</h3>
-        </div>
-      </div>
-                                                            
-      <!-- CUERPO DEL MODAL -->
-        <div class="modal-body">
-          <div class="row">
-              <div class="col-sm-12">
-              <!--FORMULARIO -->
-              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-              <p class="card-text fs-3">Título:</p>
-              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Cuchillo Top-mid --> Mercado">
-              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-              <p class="card-text fs-3">Explicación:</p>
-              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="ZERO/point desde Top Mid para spotear y suprimir Mercado y Pizza">
-              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-            </div>
-          </div> 
-        </div> 
-        <!-- PIE DE MODAL -->
-        <div class="modal-footer">
-          <div class="row">
-            <div class="col-3">
-              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-          <div class="row">                          
-            <div class="col-sm-6">
-              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-            </div>
-            <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-            </div>                                      
-          </div>
-                                    
-                                    
-                </form>
-       </div>                                           
-      </div>
-    </div>
-</div>
+
 <!--VIDEO11-->
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
               <div class="card-header split"><img src="img/Avatar/raze.png" alt="avatar" class="avatar">
                 <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                <!-- MODAL ELIMINAR LINE UPP-->
-                <div class="modal " id="Modal1000" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content bg-dark">
-                      <div class="modal-header bg-danger">
-                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                      </div>
-                      <div class="modal-body">
-                        <p>Este Line up se eliminará permanentemente.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Si, eliminar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
               <iframe height="230" src="https://www.youtube.com/embed/hIoStJKsBh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
@@ -1814,76 +1180,13 @@
               </div>
             </div>
           </div>
- <!--MODAL 11  / EDITAR DESCRIPCION-->
- <div class="modal" id="Modal311">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content bg-dark">                                                          
-      <!-- CABEZA DEL MODAL -->
-      <div class="modal-header bg-danger">
-        <div class="col-sm-3">
-          <h3> Editar Line up</h3>
-        </div>
-      </div>
-                                                            
-      <!-- CUERPO DEL MODAL -->
-        <div class="modal-body">
-          <div class="row">
-              <div class="col-sm-12">
-              <!--FORMULARIO -->
-              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
-              <p class="card-text fs-3">Título:</p>
-              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Limpiar CT granada">
-              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
-              <p class="card-text fs-3">Explicación:</p>
-              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Limpian CT con Slow de Sage desde A-Lobby a CT (link abajo) y Balas de Pintura + Réplica desde A-Main.">
-              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
-            </div>
-          </div> 
-        </div> 
-        <!-- PIE DE MODAL -->
-        <div class="modal-footer">
-          <div class="row">
-            <div class="col-3">
-              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-          <div class="row">                          
-            <div class="col-sm-6">
-              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
-            </div>
-            <div class="col-sm-6">
-                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
-            </div>                                      
-          </div>
-                                    
-                                    
-                </form>
-       </div>                                           
-      </div>
-    </div>
-</div>
+
 <!--VIDEO 12-->
           <div class="col-sm-4">
             <div class="card border-danger bg-dark text-white">
               <div class="card-header fracture"><img src="img/Avatar/yoru.png" alt="avatar" class="avatar">
                 <button type="button" class="btn btn-danger  bi bi-trash3-fill" style="margin-left:30% ;margin-right:10%" data-bs-toggle="modal" data-bs-target="#Modal1000">Eliminar Line up</button>
-                <!-- MODAL ELIMINAR LINE UPP-->
-                <div class="modal " id="Modal1000" tabindex="-1">
-                  <div class="modal-dialog">
-                    <div class="modal-content bg-dark">
-                      <div class="modal-header bg-danger">
-                        <h6>¿Estas seguro que quieres eliminar este Line up?</h1>
-                      </div>
-                      <div class="modal-body">
-                        <p>Este Line up se eliminará permanentemente.</p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger">Si, eliminar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
               <iframe height="230" src="https://www.youtube.com/embed/OqqDvV71JLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="card-body">
@@ -1967,6 +1270,535 @@
             </div>
           </div>
         </div>
+
+        <!--PAGINACION-->
+        <div class="row">
+          <nav aria-label="Page navigation example ">
+            <ul class="pagination justify-content-center " style="margin-top: 30px;">
+              <li class="page-item ">
+                <a class="page-link bg-dark border-danger text-danger" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item "><a class="page-link bg-dark border-danger text-danger" href="inicioadmin.html">1</a></li>
+              <li class="page-item"><a class="page-link bg-dark border-danger text-danger" href="inicioadmin2.html">2</a></li>
+              <li class="page-item"><a class="page-link bg-dark border-danger text-danger" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link bg-dark border-danger text-danger" href="/inicio2.html" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="row" style="margin-top: 150px;">        
+          <center><p class="text-muted">Agradecimientos a <a href="http://www.hitboxking.com" class="text-muted">HITBOXKING.com</a>, todos los derechos de los videos le pertecen a ese dominio.</p></center>            
+      </div>
+    </div>
+  <!--MODAL 1 / EDITAR DESCRIPCION-->
+<div class="modal" id="Modal301">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3 class="text-white"> Editar Line up</h3>
+        </div>
+      </div>                                                          
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form name="formadmin1" class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded " method="POST">
+              <p class="card-text fs-3 text-white">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Nano para verdes de C">
+
+              <p class="card-text fs-3 text-white">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Nanoenjambre lanzado desde Lobby de Larga para limpiar tras las cajas Verdes de la derecha y frenar el apoyo de garaje">
+              <br>
+              <div class="row ">
+                <div class="col-4 d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+                  </div>                          
+                <div class="col-4 d-flex justify-content-center">
+                  <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+                </div>                                                   
+              </div>
+          </form>                
+            </div>
+          </div>                 
+        </div>                                            
+      </div>
+    </div>
+</div>
+ <!--MODAL 2  / EDITAR DESCRIPCION-->
+ <div class="modal" id="Modal302">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3 class="text-white"> Editar Line up</h3>
+        </div>
+      </div>                                                          
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form name="formadmin1" class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded " method="POST">
+              <p class="card-text fs-3 text-white">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Nano para corta">
+
+              <p class="card-text fs-3 text-white">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Nanoenjambre desde Lobby de A para limpiar la parte de arriba de Corta">
+              <br>
+              <div class="row ">
+                <div class="col-4 d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+                  </div>                          
+                <div class="col-4 d-flex justify-content-center">
+                  <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+                </div>                                                   
+              </div>
+          </form>                
+            </div>
+          </div>                 
+        </div>                                            
+      </div>
+    </div>
+</div>
+ <!--MODAL 3  / EDITAR DESCRIPCION-->
+ <div class="modal" id="Modal303">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3 class="text-white"> Editar Line up</h3>
+        </div>
+      </div>                                                          
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form name="formadmin1" class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded " method="POST">
+              <p class="card-text fs-3 text-white">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="TP plataforma - spawn">
+
+              <p class="card-text fs-3 text-white">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Infiltración lanzada al inicio de la ronda desde la Plataforma de Medio hasta el Spawn de los atacantes">
+              <br>
+              <div class="row ">
+                <div class="col-4 d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+                  </div>                          
+                <div class="col-4 d-flex justify-content-center">
+                  <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+                </div>                                                   
+              </div>
+          </form>                
+            </div>
+          </div>                 
+        </div>                                            
+      </div>
+    </div>
+</div>
+ <!--MODAL 4  / EDITAR DESCRIPCION-->
+ <div class="modal" id="Modal304">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content bg-dark">                                                          
+                <!-- CABEZA DEL MODAL -->
+                <div class="modal-header bg-danger">
+                  <div class="col-sm-3">
+                    <h3> Editar Line up</h3>
+                  </div>
+                </div>
+                                                                      
+                <!-- CUERPO DEL MODAL -->
+                  <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <!--FORMULARIO -->
+                        <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
+                        <p class="card-text fs-3">Título:</p>
+                        <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Recon fuente->backsite B">
+                        <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
+                        <p class="card-text fs-3">Explicación:</p>
+                        <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Recon Arrow desde Fuente hasta Back Site de B">
+                        <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
+                      </div>
+                    </div> 
+                  </div> 
+                  <!-- PIE DE MODAL -->
+                  <div class="modal-footer">
+                    <div class="row">
+                      <div class="col-3">
+                        <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                    <div class="row">                          
+                      <div class="col-sm-6">
+                        <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+                      </div>
+                      <div class="col-sm-6">
+                          <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+                      </div>                                      
+                    </div>
+                                              
+                                              
+                          </form>
+                 </div>                                           
+                </div>
+              </div>
+ </div>
+ <!--MODAL 5  / EDITAR DESCRIPCION-->
+ <div class="modal" id="Modal305">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3> Editar Line up</h3>
+        </div>
+      </div>
+                                                            
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
+              <p class="card-text fs-3">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Shock Darts Anti-Bloqueo">
+              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
+              <p class="card-text fs-3">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Shock Darts lanzado dese Under Heaven para destruir el Bloqueo en A-Link">
+              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
+            </div>
+          </div> 
+        </div> 
+        <!-- PIE DE MODAL -->
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-3">
+              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          <div class="row">                          
+            <div class="col-sm-6">
+              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+            </div>
+            <div class="col-sm-6">
+                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+            </div>                                      
+          </div>
+                                    
+                                    
+                </form>
+       </div>                                           
+      </div>
+    </div>
+</div>
+ <!--MODAL 6  / EDITAR DESCRIPCION-->
+ <div class="modal" id="Modal306">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3> Editar Line up</h3>
+        </div>
+      </div>
+                                                            
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
+              <p class="card-text fs-3">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Molly A-Link -> Grafiti">
+              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
+              <p class="card-text fs-3">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="FRAG/ment desde A-Link para limpiar Grafiti e iniciar el Retake">
+              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
+            </div>
+          </div> 
+        </div> 
+        <!-- PIE DE MODAL -->
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-3">
+              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          <div class="row">                          
+            <div class="col-sm-6">
+              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+            </div>
+            <div class="col-sm-6">
+                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+            </div>                                      
+          </div>
+                                    
+                                    
+                </form>
+       </div>                                           
+      </div>
+    </div>
+</div>
+ <!--MODAL 7  / EDITAR DESCRIPCION-->
+ <div class="modal" id="Modal307">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3> Editar Line up</h3>
+        </div>
+      </div>
+                                                            
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
+              <p class="card-text fs-3">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="One-way para post plant">
+              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
+              <p class="card-text fs-3">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Nube Venenosa One-Way en Site para defender el plante en la esquina de Under">
+              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
+            </div>
+          </div> 
+        </div> 
+        <!-- PIE DE MODAL -->
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-3">
+              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          <div class="row">                          
+            <div class="col-sm-6">
+              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+            </div>
+            <div class="col-sm-6">
+                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+            </div>                                      
+          </div>
+                                    
+                                    
+                </form>
+       </div>                                           
+      </div>
+    </div>
+</div>
+ <!--MODAL 8  / EDITAR DESCRIPCION-->
+ <div class="modal" id="Modal308">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3> Editar Line up</h3>
+        </div>
+      </div>
+                                                            
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
+              <p class="card-text fs-3">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="One-Way A-Main">
+              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
+              <p class="card-text fs-3">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Nube Venenosa One-Way en A-Main para holdear desde Site">
+              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
+            </div>
+          </div> 
+        </div> 
+        <!-- PIE DE MODAL -->
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-3">
+              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          <div class="row">                          
+            <div class="col-sm-6">
+              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+            </div>
+            <div class="col-sm-6">
+                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+            </div>                                      
+          </div>
+                                    
+                                    
+                </form>
+       </div>                                           
+      </div>
+    </div>
+</div>
+ <!--MODAL 9  / EDITAR DESCRIPCION-->
+ <div class="modal" id="Modal309">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3> Editar Line up</h3>
+        </div>
+      </div>
+                                                            
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
+              <p class="card-text fs-3">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Camara sobre ventana">
+              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
+              <p class="card-text fs-3">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Cámara sobre Ventana para ver B-Site y Dobles Puertas. Puedes ver el lado izquierdo de B-Site y si pushean B o Dobles Puertas.">
+              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
+            </div>
+          </div> 
+        </div> 
+        <!-- PIE DE MODAL -->
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-3">
+              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          <div class="row">                          
+            <div class="col-sm-6">
+              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+            </div>
+            <div class="col-sm-6">
+                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+            </div>                                      
+          </div>
+                                    
+                                    
+                </form>
+       </div>                                           
+      </div>
+    </div>
+</div>
+ <!--MODAL 10  / EDITAR DESCRIPCION-->
+ <div class="modal" id="Modal310">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3> Editar Line up</h3>
+        </div>
+      </div>
+                                                            
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
+              <p class="card-text fs-3">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Cuchillo Top-mid --> Mercado">
+              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
+              <p class="card-text fs-3">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="ZERO/point desde Top Mid para spotear y suprimir Mercado y Pizza">
+              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
+            </div>
+          </div> 
+        </div> 
+        <!-- PIE DE MODAL -->
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-3">
+              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          <div class="row">                          
+            <div class="col-sm-6">
+              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+            </div>
+            <div class="col-sm-6">
+                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+            </div>                                      
+          </div>
+                                    
+                                    
+                </form>
+       </div>                                           
+      </div>
+    </div>
+</div>
+ <!--MODAL 11  / EDITAR DESCRIPCION-->
+ <div class="modal" id="#Modal311">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content bg-dark">                                                          
+      <!-- CABEZA DEL MODAL -->
+      <div class="modal-header bg-danger">
+        <div class="col-sm-3">
+          <h3> Editar Line up</h3>
+        </div>
+      </div>
+                                                            
+      <!-- CUERPO DEL MODAL -->
+        <div class="modal-body">
+          <div class="row">
+              <div class="col-sm-12">
+              <!--FORMULARIO -->
+              <form class="form-floating" action="inicioadmin.html" enctype="application/x-www-form-urlencoded" method="GET">
+              <p class="card-text fs-3">Título:</p>
+              <input type="text" name="titulo" class="form-control p-1" id="floatingInputValue"  value="Limpiar CT granada">
+              <label class="text-dark" for="titulo">Ingrese aquí el título:</label>
+              <p class="card-text fs-3">Explicación:</p>
+              <input type="text" name="explicacion"class="form-control p-1" id="floatingInputValue"  value="Limpian CT con Slow de Sage desde A-Lobby a CT (link abajo) y Balas de Pintura + Réplica desde A-Main.">
+              <label class ="text-dark "for="explicacion">Ingrese aquí la explicación:</label>                                
+            </div>
+          </div> 
+        </div> 
+        <!-- PIE DE MODAL -->
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-3">
+              <button type="button" class="btn btn-danger btn-sm text-white" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          <div class="row">                          
+            <div class="col-sm-6">
+              <input class=" btn btn-danger btn-sm text-white margin-right:10px " type="submit" value="Enviar">                                          
+            </div>
+            <div class="col-sm-6">
+                <input class=" btn btn-danger btn-sm text-white" type="reset" value="Limpiar">
+            </div>                                      
+          </div>
+                                    
+                                    
+                </form>
+       </div>                                           
+      </div>
+    </div>
+</div>
  <!--MODAL 12  / EDITAR DESCRIPCION-->
  <div class="modal" id="Modal312">
   <div class="modal-dialog modal-xl">
@@ -2015,30 +1847,6 @@
       </div>
     </div>
 </div>
-        <!--PAGINACION-->
-        <div class="row">
-          <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center" style="margin-top: 30px;">
-              <li class="page-item">
-                <a class="page-link bg-dark" href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li>
-              <li class="page-item"><a class="page-link bg-dark" href="#">1</a></li>
-              <li class="page-item"><a class="page-link bg-dark" href="inicio2.html">2</a></li>
-              <li class="page-item"><a class="page-link bg-dark" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link bg-dark" href="/inicio2.html" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="row" style="margin-top: 150px;">
-          <center><p class="text-muted">Agradecimientos a <a href="http://www.hitboxking.com" class="text-muted">HITBOXKING.com</a>, todos los derechos de los videos le pertecen a ese dominio.</p></center>            
-      </div>
-    </div>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">    
 </body>
 </html>
