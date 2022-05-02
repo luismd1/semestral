@@ -40,30 +40,35 @@
                     <form action="" name="reg" id="reg" method="post">
                         <!--usuario-->
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control bg-dark text-white" id="reg-usu" placeholder="Usuario">
+                            <input type="text" class="form-control bg-dark text-white" name="usuario" id="reg-usu" placeholder="Usuario">
                             <label for="floatingInput" class="text-white">Usuario</label>
+                            <p class="d-none text-white" id="msj-usu">El usuario tiene que ser de 5 a 20 dígitos y solo puede contener numeros, letras, guion y guion bajo.</p>
                         </div>
                         <!--contrasena-->
                         <div class="form-floating">
-                            <input type="password" class="form-control bg-dark text-white" id="reg_pass" placeholder="contraseña">
+                            <input type="password" class="form-control bg-dark text-white" name="pass" id="reg-pass" placeholder="contraseña">
                             <label for="floatingPassword" class="text-white">contraseña</label>
+                            <p class="d-none text-white" id="msj-pass">La contraseña tiene que ser de 5 a 20 dígitos, la primera letra debe ser mayuscula y debe terminar en punto</p>
                         </div>
                         <div class="col-12 p-2"></div>
                         <!--confirmar contrasena-->
                         <div class="form-floating">
-                            <input type="password" class="form-control bg-dark text-white" id="reg_pass2" placeholder="confirme su contraseña">
+                            <input type="password" class="form-control bg-dark text-white" name="pass2" id="reg-pass2" placeholder="confirme su contraseña">
                             <label for="floatingPassword" class="text-white">confirme su contraseña</label>
+                            <p class="d-none text-white" id="msj-pass2">Ambas contraseñas tienen que coincidir</p>
                         </div>
                         <div class="col-12 p-2"></div>
                         <!--correo-->
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control bg-dark text-white" id="reg_email" placeholder="nombre@ejemplo.com">
+                            <input type="email" class="form-control bg-dark text-white" name="email" id="reg-email" placeholder="nombre@ejemplo.com">
                             <label for="floatingInput" class="text-white">Correo electronico</label>
+                            <p class="d-none text-white" id="msj-email">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
                         </div>
                         <!--confirmar correo-->
                         <div class="form-floating mb-3">
-                            <input type="email" class="form-control bg-dark text-white" id="reg_email2" placeholder="nombre@ejemplo.com">
+                            <input type="email" class="form-control bg-dark text-white" name="email2" id="reg-email2" placeholder="nombre@ejemplo.com">
                             <label for="floatingInput" class="text-white">Confirme su correo electronico</label>
+                            <p class="Ambos correos tienen que coincidir" id="msj-email2">Ambos correos tienen que coincidir.</p>
                         </div>
                         <button type="submit" class="btn btn-danger">Guardar</button>
                     </form>
