@@ -32,6 +32,9 @@ label{
 button{
     font-family: "ff mark";
 };
+p{
+    font-family: "ff mark";
+}
 
 * {
     margin: 0;
@@ -42,8 +45,8 @@ button{
 }
 
 .card {
-    max-width: 250px;
-    margin: 150px auto 0;
+    max-width: 750px;
+    margin: 80px auto 0;
     background-color: #404040;
     box-shadow: 0 10px 90px #ff0000a7;
     text-align: center;
@@ -80,13 +83,13 @@ button{
     margin-top: 30px;
     font-size: 22px;
     font-weight: bold;
-    color: rgba(235, 74, 69, 0.668);
+    color: rgba(240, 64, 58, 0.919);
 }
 
 .card .card-body .name:hover {
     margin-top: 30px;
     font-size: 24px;
-    color: rgba(235, 74, 69, 0.668);
+    color: rgba(240, 49, 43, 0.919);
 }
 /*mail*/
 .card .card-body .mail {
@@ -117,7 +120,7 @@ button{
     justify-content: center;
     height: 40px;
     width: 40px;
-    background-color: rgba(235, 74, 69, 0.668);
+    background-color: rgba(240, 64, 58, 0.919);
     color: #ffffff;
     font-size: 20px;
     border-radius: 100%;
@@ -130,7 +133,7 @@ button{
 }
 
 .card .social-links .social-icon:hover {
-    background-color: rgba(235, 74, 69, 0.668);
+    background-color: rgba(240, 49, 43, 0.919);
     height: 50px;
     width: 50px;
     text-decoration: none;
@@ -147,7 +150,7 @@ button{
     font-size: 14px;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 675px) {
     .card {
         width: 96%;
     }
@@ -155,4 +158,18 @@ button{
     .card .card-body {
         padding: 10px 20px;
     }
+}
+#container0 {
+
+    background-color: #2a2929;
+
+    font-size: 20px;
+    border-radius: 15px;
+}
+#container1 {
+
+    background-color: #11111139;
+
+    font-size: 20px;
+    border-radius: 15px;
 }
