@@ -4,7 +4,7 @@ $(document).ready(function(e){
 
     const expresiones = {
         usuario: /^[a-zA-Z0-9\_\-]{5,20}$/, // Letras, numeros, guion y guion_bajo
-        password: /^[A-Z][a-zA-Z0-9]{3,18}\.$/, // 4 a 12 digitos.
+        password: /^[A-Z][a-zA-Z0-9]{3,18}\.$/, // 5 a 20 digitos, con la primera letra mayuscula y terminando en punto.
         correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/ // todo separado por un @ y terminando con punto algo
     }
 
@@ -79,7 +79,20 @@ $(document).ready(function(e){
         const termino = document.getElementById("terminos");
         if(campos.usu && campos.pass && campos.email && termino.checked){
             formulario.reset();
-
+            $("#reg-enviado").removeClass("d-none");
+            $("#reg-enviado").addClass("d-block");
+            $("input").removeClass("is-valid");
+        }else{
+            $("#reg-error").removeClass("d-none");
+            $("#reg-error").addClass("d-block");
         }
-    })
+    });
+    $("#btn-error").click(function(){
+        $("#reg-error").removeClass("d-block");
+        $("#reg-error").addClass("d-none");
+    });
+    $("#btn-enviado").click(function(){
+        $("#reg-enviado").removeClass("d-block");
+        $("#reg-enviado").addClass("d-none");
+    });
 });

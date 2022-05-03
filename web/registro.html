@@ -68,9 +68,17 @@
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="terminos">
                             <label class="form-check-label text-white" for="terminos">
-                              Acepto los terminos y condiciones.
+                                Acepto los terminos y condiciones.
                             </label>
-                          </div>
+                        </div>
+                        <div class="alert alert-success alert-dismissible d-none" id="reg-enviado">
+                            <button type="button" class="btn-close" id="btn-enviado"></button>
+                            <strong>Formulario enviado,</strong> todos los campos fueron completados exitosamente.
+                        </div>
+                        <div class="alert alert-danger alert-dismissible d-none" id="reg-error">
+                            <button type="button" class="btn-close" id="btn-error"></button>
+                            <strong>Error:</strong> Complete los campos para registrarse.
+                        </div>
                         <button type="submit" class="btn btn-danger">Guardar</button>
                     </form>
                 </div>
