@@ -65,14 +65,16 @@
             <div class="col-sm-4"></div>
             <div class="col-sm-4 bg-dark rounded-bottom">
                 <!--Formulario-->
-                <form action="" name="inicio" id="ini" method="post">
+                <form action="" name="ini" id="ini" method="post">
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input type="email" class="form-control" name="email" id="ini-email" placeholder="name@example.com">
                         <label for="floatingInput">Correo electronico</label>
+                        <p class="d-none text-white" id="msj-email">Debe ingresar un correo</p>
                     </div>
                     <div class="form-floating">
-                        <input type="password" class="form-control" id="pass" placeholder="Password">
+                        <input type="password" class="form-control" name="pass" id="ini-pass" placeholder="Password">
                         <label for="floatingPassword">Contraseña</label>
+                        <p class="d-none text-white" id="msj-pass">Debe ingresar un contraseña</p>
                     </div>
                     <center><button style="margin-top: 5%; margin-bottom: 5%;" type="submit" class="btn btn-danger">Iniciar</button></center>
                 </form>
@@ -80,6 +82,6 @@
             <div class="col-sm-4"></div>
         </div>
     </div>
-    <script src="js/Validacion.js"></script>
+    <script src="js/Validacion-ini.js"></script>
 </body>
 </html>
