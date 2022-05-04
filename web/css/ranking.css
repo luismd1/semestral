@@ -29,6 +29,34 @@ body{
     margin-bottom: 15px;
     margin-right: 20px;
 }
+
+p{
+    font-family: "ff mark";
+}
 #titulo{
     font-family: "valorant font";
 }
+a{
+    font-family: "ff mark";
+}
+h6{
+    font-family: "ff mark";
+}
+h5,h4{
+    font-family: "ff mark";
+}
+h3{
+    font-family: "ff mark";
+}
+h1{
+    font-family: "ff mark";
+}
+h2{
+    font-family: "ff mark";
+}
+label{
+    font-family: "ff mark";
+};
+button{
+    font-family: "ff mark";
+};

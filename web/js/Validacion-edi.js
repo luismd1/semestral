@@ -76,8 +76,12 @@ $(document).ready(function(e){
 
     $("#edi").submit(function(e){
         e.preventDefault();
-        const termino = document.getElementById("terminos");
-        if(campos.usu && campos.pass && campos.email && termino.checked){
+        validarCampo(expresiones.usuario, e.target, "usu");
+        validarCampo(expresiones.password, e.target, "pass");
+        coincidir("pass");
+        validarCampo(expresiones.correo, e.target, "email");
+        coincidir("email");
+        if(campos.usu && campos.pass && campos.email){
             formulario.reset();
             $("#edi-enviado").removeClass("d-none");
             $("#edi-enviado").addClass("d-block");
