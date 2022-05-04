@@ -4,10 +4,9 @@ $(document).ready(function(e){
 
     const expresiones = {
         usuario: /^[a-zA-Z0-9\_\-]{5,20}$/, // Letras, numeros, guion y guion_bajo
-        password: /^[A-Z][a-zA-Z0-9]{3,18}\.$/, // 5 a 20 digitos, con la primera letra mayuscula y terminando en punto.
+        password: /^[!"#$%&'()*+,\-./:;<=>?@\[\]^_`{|}~]?[a-zA-Z0-9]+[!"#$%&'()*+,\-./:;<=>?@\[\]^_`{|}~]+[a-zA-Z0-9]+[!"#$%&'()*+,\-./:;<=>?@\[\]^_`{|}~]?$/, // 5 a 20 digitos, con la primera letra mayuscula y terminando en punto.
         correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/ // todo separado por un @ y terminando con punto algo
     }
-
     const campos = {
         usu : false,
         pass : false,
@@ -34,7 +33,13 @@ $(document).ready(function(e){
             break;
         }
     }
+    const size = (campo) => {
+        if(){
 
+        }else{
+            
+        }
+    }
     const validarCampo = (expre, input, campo) => {
         if(expre.test(input.value)){
             $("#reg-"+campo).removeClass("is-invalid");
