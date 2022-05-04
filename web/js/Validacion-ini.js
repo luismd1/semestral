@@ -41,4 +41,7 @@ $(document).ready(function () {
         input.addEventListener('keyup', validacion);
         input.addEventListener('blur', validacion);
     });
+    $("#ini").submit(function(){
+        event.preventDefault();
+    })
 });
