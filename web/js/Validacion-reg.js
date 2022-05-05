@@ -10,7 +10,8 @@ $(document).ready(function(e){
     const campos = {
         usu : false,
         pass : false,
-        email : false
+        email : false,
+        largo : false
     }
     const validacion = (e) => {
         switch (e.target.name){
@@ -34,10 +35,19 @@ $(document).ready(function(e){
         }
     }
     const size = (campo) => {
-        if(){
-
+        let pass = $("#pass").val();
+        if(pass.lenght>5 && pass.lenght<20){
+            $("#reg-"+campo).removeClass("is-invalid");
+            $("#reg-"+campo).addClass("is-valid");
+            $("#msj-"+campo).removeClass("d-block");
+            $("#msj-"+campo).addClass("d-none");
+            campos[largo] = true;
         }else{
-            
+            $("#reg-"+campo).removeClass("is-valid");
+            $("#reg-"+campo).addClass("is-invalid");
+            $("#msj-"+campo).removeClass("d-none");
+            $("#msj-"+campo).addClass("d-block");
+            campos[largo] = false;
         }
     }
     const validarCampo = (expre, input, campo) => {
@@ -82,7 +92,7 @@ $(document).ready(function(e){
     $("#reg").submit(function(e){
         e.preventDefault();
         const termino = document.getElementById("terminos");
-        if(campos.usu && campos.pass && campos.email && termino.checked){
+        if(campos.usu && campos.pass && campos.email && campos.largo && termino.checked){
             formulario.reset();
             $("#reg-enviado").removeClass("d-none");
             $("#reg-enviado").addClass("d-block");
